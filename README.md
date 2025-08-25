@@ -67,31 +67,6 @@ cp .env.example .env
 
 **Configure Backend Environment (.env):**
 
-Edit `backend/.env` with your settings:
-
-```env
-# Django Configuration
-SECRET_KEY=your-super-secret-key-here
-DEBUG=True
-ALLOWED_HOSTS=localhost,127.0.0.1
-
-# Database Configuration
-DB_NAME=your_database_name
-DB_USER=your_database_user
-DB_PASSWORD=your_database_password
-DB_HOST=localhost
-DB_PORT=3306
-
-# Email Configuration (Gmail SMTP)
-EMAIL_HOST_USER=your_email@gmail.com
-EMAIL_HOST_PASSWORD=your_app_specific_password
-DEFAULT_FROM_EMAIL=your_email@gmail.com
-
-# Google OAuth (Optional)
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-```
-
 **Database Setup:**
 
 ```bash
